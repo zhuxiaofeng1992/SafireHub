@@ -1,0 +1,185 @@
+<?xml version="1.0" standalone="yes"?>
+<ITWEAEConfig id="ITWEAEConfig.xml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <Configs>
+    <OPCServers>
+      <!--<OPCServer HostName="DesControl" UserName="" Password="" Domain=""/>-->
+      <OPCServer HostName="eaepc150" UserName="" Password="" Domain=""/>
+    </OPCServers>
+    <LogLength Value="1000"/>
+    <KeepLogDays Value="365"/>
+    <BackupPath Value="C:\Despatch\SafireHub"/>
+    
+    <ServerItems UpdateRate="500">
+      <!--ZonePower-->
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_1_L1" Alias="FF_SCR LoadI_L1HZ01_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_1_L1" Alias="FF_SCR LoadV_L1HZ01_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_1_L1" Alias="FF_SCR LoadI_L1HZ01_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_1_L1" Alias="FF_SCR LoadV_L1HZ01_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_2_L1" Alias="FF_SCR LoadI_L1HZ02_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_2_L1" Alias="FF_SCR LoadV_L1HZ02_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_2_L1" Alias="FF_SCR LoadI_L1HZ02_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_2_L1" Alias="FF_SCR LoadV_L1HZ02_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_3_L1" Alias="FF_SCR LoadI_L1HZ03_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_3_L1" Alias="FF_SCR LoadV_L1HZ03_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_3_L1" Alias="FF_SCR LoadI_L1HZ03_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_3_L1" Alias="FF_SCR LoadV_L1HZ03_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_4_L1" Alias="FF_SCR LoadI_L1HZ04_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_4_L1" Alias="FF_SCR LoadV_L1HZ04_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_4_L1" Alias="FF_SCR LoadI_L1HZ04_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_4_L1" Alias="FF_SCR LoadV_L1HZ04_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_5_L1" Alias="FF_SCR LoadI_L1HZ05_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_5_L1" Alias="FF_SCR LoadV_L1HZ05_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_5_L1" Alias="FF_SCR LoadI_L1HZ05_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_5_L1" Alias="FF_SCR LoadV_L1HZ05_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_6_L1" Alias="FF_SCR LoadI_L1HZ06_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_6_L1" Alias="FF_SCR LoadV_L1HZ06_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_6_L1" Alias="FF_SCR LoadI_L1HZ06_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_6_L1" Alias="FF_SCR LoadV_L1HZ06_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_7_L1" Alias="FF_SCR LoadI_L1HZ07_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_7_L1" Alias="FF_SCR LoadV_L1HZ07_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_7_L1" Alias="FF_SCR LoadI_L1HZ07_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_7_L1" Alias="FF_SCR LoadV_L1HZ07_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_8_L1" Alias="FF_SCR LoadI_L1HZ08_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_8_L1" Alias="FF_SCR LoadV_L1HZ08_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_8_L1" Alias="FF_SCR LoadI_L1HZ08_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_8_L1" Alias="FF_SCR LoadV_L1HZ08_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_1_L2" Alias="FF_SCR LoadI_L2HZ01_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_1_L2" Alias="FF_SCR LoadV_L2HZ01_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_1_L2" Alias="FF_SCR LoadI_L2HZ01_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_1_L2" Alias="FF_SCR LoadV_L2HZ01_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_2_L2" Alias="FF_SCR LoadI_L2HZ02_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_2_L2" Alias="FF_SCR LoadV_L2HZ02_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_2_L2" Alias="FF_SCR LoadI_L2HZ02_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_2_L2" Alias="FF_SCR LoadV_L2HZ02_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_3_L2" Alias="FF_SCR LoadI_L2HZ03_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_3_L2" Alias="FF_SCR LoadV_L2HZ03_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_3_L2" Alias="FF_SCR LoadI_L2HZ03_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_3_L2" Alias="FF_SCR LoadV_L2HZ03_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_4_L2" Alias="FF_SCR LoadI_L2HZ04_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_4_L2" Alias="FF_SCR LoadV_L2HZ04_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_4_L2" Alias="FF_SCR LoadI_L2HZ04_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_4_L2" Alias="FF_SCR LoadV_L2HZ04_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_5_L2" Alias="FF_SCR LoadI_L2HZ05_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_5_L2" Alias="FF_SCR LoadV_L2HZ05_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_5_L2" Alias="FF_SCR LoadI_L2HZ05_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_5_L2" Alias="FF_SCR LoadV_L2HZ05_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_6_L2" Alias="FF_SCR LoadI_L2HZ06_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_6_L2" Alias="FF_SCR LoadV_L2HZ06_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_6_L2" Alias="FF_SCR LoadI_L2HZ06_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_6_L2" Alias="FF_SCR LoadV_L2HZ06_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_7_L2" Alias="FF_SCR LoadI_L2HZ07_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_7_L2" Alias="FF_SCR LoadV_L2HZ07_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_7_L2" Alias="FF_SCR LoadI_L2HZ07_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_7_L2" Alias="FF_SCR LoadV_L2HZ07_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadI_8_L2" Alias="FF_SCR LoadI_L2HZ08_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZUpper_LoadV_8_L2" Alias="FF_SCR LoadV_L2HZ08_Upper"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadI_8_L2" Alias="FF_SCR LoadI_L2HZ08_Lower"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnHZLower_LoadV_8_L2" Alias="FF_SCR LoadV_L2HZ08_Lower"/>
+
+      
+      <!--ZoneTemp-->
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_1_L1" Alias="FF_TC_L1HZ01_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_1_L1" Alias="FF_TC_L1HZ01_Lower"/>
+      
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_2_L1" Alias="FF_TC_L1HZ02_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_2_L1" Alias="FF_TC_L1HZ02_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_3_L1" Alias="FF_TC_L1HZ03_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_3_L1" Alias="FF_TC_L1HZ03_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_4_L1" Alias="FF_TC_L1HZ04_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_4_L1" Alias="FF_TC_L1HZ04_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_5_L1" Alias="FF_TC_L1HZ05_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_5_L1" Alias="FF_TC_L1HZ05_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_6_L1" Alias="FF_TC_L1HZ06_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_6_L1" Alias="FF_TC_L1HZ06_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_7_L1" Alias="FF_TC_L1HZ07_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_7_L1" Alias="FF_TC_L1HZ07_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_8_L1" Alias="FF_TC_L1HZ08_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_8_L1" Alias="FF_TC_L1HZ08_Lower"/>
+
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_1_L2" Alias="FF_TC_L2HZ01_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_1_L2" Alias="FF_TC_L2HZ01_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_2_L2" Alias="FF_TC_L2HZ02_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_2_L2" Alias="FF_TC_L2HZ02_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_3_L2" Alias="FF_TC_L2HZ03_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_3_L2" Alias="FF_TC_L2HZ03_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_4_L2" Alias="FF_TC_L2HZ04_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_4_L2" Alias="FF_TC_L2HZ04_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_5_L2" Alias="FF_TC_L2HZ05_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_5_L2" Alias="FF_TC_L2HZ05_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_6_L2" Alias="FF_TC_L2HZ06_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_6_L2" Alias="FF_TC_L2HZ06_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_7_L2" Alias="FF_TC_L2HZ07_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_7_L2" Alias="FF_TC_L2HZ07_Lower"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnHZUpperCtl_8_L2" Alias="FF_TC_L2HZ08_Upper"/>
+      <ServerItem ItemName = "LLocalProcessVariables\Thermocouple\TCFrnHZLowerCtl_8_L2" Alias="FF_TC_L2HZ08_Lower"/>
+    
+    <!--Frequency-->
+      <ServerItem ItemName = "LocalProcessVariables\AnalogOutput\AODrySupFanDrvHz" Alias="DT_Sup Fan Speed"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogOutput\AODryExhFanDrvHz" Alias="DT_Exh Fan Speed"/>
+
+      <!--Conveyor-->
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnConveyorSpeed_L1" Alias="FF_Conveyor Speed_L1"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnConveyorSpeed_L2" Alias="FF_Conveyor Speed_L2"/>
+
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnWaferIn_L1" Alias="FF_Total Wafers_L1"/>
+      <ServerItem ItemName = "LocalProcessVariables\AnalogInput\AIFrnWaferIn_L2" Alias="FF_Total Wafers_L2"/>
+
+      <!--Oxidizer-->
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCDryOxidizer_L1" Alias="FF_Total Wafers_L1"/>
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCDryOxidizer_L2" Alias="FF_Total Wafers_L2"/>
+
+      <!--up-time-->
+      <ServerItem ItemName = "SEMI\E10_Frn_StandbyTime_L1" Alias="FF_E10 Standby Time_L1"/>
+      <ServerItem ItemName = "SEMI\E10_Frn_ProductiveTime_L1" Alias="FF_E10 Productive Time_L1"/>
+
+      <ServerItem ItemName = "SEMI\E10_Frn_StandbyTime_L2" Alias="FF_E10 Standby Time_L2"/>
+      <ServerItem ItemName = "SEMI\E10_Frn_ProductiveTime_L2" Alias="FF_E10 Productive Time_L2"/>
+
+      <!--Exhaust Temp-->
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnExh_Entrance_1" Alias="FF_Entr Exhaust TC"/>
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnExh_Intermediate_1" Alias="FF_Intermediate Exhaust TC"/>
+      <ServerItem ItemName = "LocalProcessVariables\Thermocouple\TCFrnExh_Exit_1" Alias="FF_Exit Exhaust TC"/>
+
+      <!--Dryer Alarm-->
+      <ServerItem ItemName = "AlarmVariables\AlarmState_Dryer\Alarm" Alias="Alarm"/>
+      <!--Furnace Alarm-->
+      <ServerItem ItemName = "AlarmVariables\AlarmState_Furnace_L1\Alarm" Alias="Alarm"/>
+      <ServerItem ItemName = "AlarmVariables\AlarmState_Furnace_L2\Alarm" Alias="Alarm"/>
+      <!--System Alarm-->
+      <ServerItem ItemName = "AlarmVariables\AlarmState_System\Alarm" Alias="Alarm"/>
+
+      <ServerItem ItemName = "IestItem0" Alias="Alarm"/>
+      <ServerItem ItemName = "TCFrnExh_Exit_1" Alias="Alarm"/>
+    </ServerItems>
+
+  </Configs>
+</ITWEAEConfig>

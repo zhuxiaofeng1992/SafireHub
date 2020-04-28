@@ -1,0 +1,5 @@
+D:\Flora\01ITWWork\Solar 3.0\SafireHub\SafireHub\DataManagerment\bin\Debug\DataManagerment.dll
+D:\Flora\01ITWWork\Solar 3.0\SafireHub\SafireHub\DataManagerment\bin\Debug\DataManagerment.pdb
+D:\Flora\01ITWWork\Solar 3.0\SafireHub\SafireHub\DataManagerment\obj\Debug\DataManagerment.csproj.CoreCompileInputs.cache
+D:\Flora\01ITWWork\Solar 3.0\SafireHub\SafireHub\DataManagerment\obj\Debug\DataManagerment.dll
+D:\Flora\01ITWWork\Solar 3.0\SafireHub\SafireHub\DataManagerment\obj\Debug\DataManagerment.pdb
